@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Next-Generation Hybrid Catalytic Converter</title>
+  <link rel="icon" href="file:///C:/Users/acer/Downloads/A%20(1).jpg" type="image/jpg">
+
+  <style>
+    /* === BASIC PAGE STYLES === */
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, #003a3a, #001a1a);
+      color: #f5f5f5;
+      margin: 0;
+      line-height: 1.8;
+      scroll-behavior: smooth;
+    }
+
+    /* === HEADER SECTION === */
+    header {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      background: linear-gradient(to right, #001a1a, #004d4d);
+      box-shadow: 0 0 25px #00e6ac88;
+      animation: headerGlow 4s infinite alternate;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #00ffcc;
+      text-shadow: 0 0 15px #00e6ac;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaffee;
+    }
+    @keyframes headerGlow {
+      from { box-shadow: 0 0 15px #00e6ac55; }
+      to { box-shadow: 0 0 40px #00e6ac; }
+    }
+
+    /* === SECTION STYLING === */
+    section {
+      background: rgba(255, 255, 255, 0.06);
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 950px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      transition: 0.3s ease;
+    }
+    section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 30px #00e6ac44;
+    }
+
+    h2 {
+      color: #00ffcc;
+      border-bottom: 2px solid #00ffcc;
+      padding-bottom: 0.3rem;
+      font-size: 1.6rem;
+      letter-spacing: 1px;
+    }
+
+    h3 {
+      color: #aaffee;
+      margin-top: 1.3rem;
+    }
+
+    ul, ol {
+      margin-left: 1.2rem;
+      font-size: 1.05rem;
+    }
+
+    /* === IMAGE/DIAGRAM === */
+    .diagram {
+      text-align: center;
+      margin-top: 1.2rem;
+    }
+    .diagram img {
+      max-width: 92%;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 255, 204, 0.4);
+      transition: 0.4s;
+    }
+    .diagram img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 35px #00ffccaa;
+    }
+
+    /* === HIGHLIGHT BOX === */
+    .highlight {
+      background: linear-gradient(90deg, #00ffcc, #00b3b3);
+      color: #002626;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 0.6rem;
+      box-shadow: 0 0 15px #00ffcc66;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { box-shadow: 0 0 10px #00e6ac66; }
+      to { box-shadow: 0 0 25px #00e6ac; }
+    }
+
+    /* === FOOTER === */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.7);
+      color: #99ffee;
+      font-size: 0.95rem;
+      letter-spacing: 1px;
+      border-top: 1px solid #00e6ac55;
+      animation: footerPulse 3s infinite alternate;
+    }
+    @keyframes footerPulse {
+      from { color: #66ffcc; }
+      to { color: #ccfff5; }
+    }
+
+    /* === SMOOTH ENTRANCE EFFECT === */
+    section, header {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 1s forwards;
+    }
+    section:nth-of-type(2) { animation-delay: 0.3s; }
+    section:nth-of-type(3) { animation-delay: 0.6s; }
+    section:nth-of-type(4) { animation-delay: 0.9s; }
+    section:nth-of-type(5) { animation-delay: 1.2s; }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Next-Generation Hybrid Catalytic Converter</h1>
+    <p><strong>Eco-Friendly Still Model for Vehicle Emission Control</strong></p>
+  </header>
+
+  <section>
+    <h2>Introduction</h2>
+    <ul>
+      <li>Vehicle engines release toxic gases such as carbon monoxide (CO), nitrogen oxides (NOₓ), hydrocarbons (HC), and particulate matter (PM).</li>
+      <li>These gases cause air pollution, smog, acid rain, and respiratory problems.</li>
+      <li>This project presents a <strong>Next-Generation Hybrid Catalytic Converter</strong> — a low-cost still model demonstrating pollution reduction before exhaust release.</li>
+    </ul>
+  </section>
+  <section>
+ <h2>For What ,Why.</h2>
+    <ul>
+      <li>Vehicles emit harmful gases like CO, CO₂, NOx, and hydrocarbons.</li>
+      <li>Traditional catalytic converters use precious metals (Pt, Pd, Rh) — expensive and not eco-friendly.</li>
+      <li>Traditional converters only work efficiently at high temperatures (around 400–800 °C).</li>
+      <li>In heavy traffic or low-speed conditions, their efficiency drops.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Key Features</h2>
+    <ul>
+      <li>Dual-action chemical + photocatalytic purification.</li>
+      <li>Arduino-based sensor system to display emission levels..</li>
+      <li>Eco-friendly and efficient even at low temperatures.</li>
+   </ul>
+  </section>
+
+  <section>
+    <h2>Aim & Objective</h2>
+    <ul>
+      <li>To design a still model representing a next-gen hybrid catalytic converter.</li>
+      <li>To educate viewers about how pollution can be controlled through multi-layered catalyst systems.</li>
+      <li>To propose cheaper, sustainable, and efficient materials for future catalytic converters.</li>
+    </ul>
+  </section>
+    <section>
+    <p>
+    <p class="highlight">                                                                                              (Still Model Representation)                                                                 </p>
+    </p>
+   </section>
+
+  <section>
+    <h2>Working Principle</h2>
+    <p>The hybrid catalytic converter consists of three key chambers:</p>
+    <ol>
+      <li><strong>Filtration Chamber:</strong> Removes large dust and soot particles.</li>
+      <li><strong>Hybrid Catalyst Chamber:</strong> Combines charcoal and copper mesh to simulate oxidation of CO → CO₂ and reduction of NOx → N₂.</li>
+      <li><strong>Outlet Chamber:</strong> Shows cleaner exhaust gas (illustrated using color-coded cotton).</li>
+    </ol>
+    <p>Arrows and LEDs indicate the gas flow and purification process, visually showing the conversion from polluted to purified gases.</p>
+
+    <div class="diagram">
+      <img src="file:///C:/Users/acer/Downloads/CATALYTIC%20PRESSURE%20PROJECT%20IMAGE%20.jpg" alt="Hybrid Catalytic Converter Model Diagram">
+    </div>
+  </section>
+
+  <section>
+    <h2>Next-Generation Innovations</h2>
+    <p>
+      Modern research in hybrid catalytic converters focuses on improving <strong>efficiency, durability, and sustainability</strong> while reducing the use of expensive metals.
+      These new-generation systems combine traditional catalysts with advanced filtration and nanomaterial technologies.
+    </p>
+
+    <h3>Key Innovations</h3>
+    <ul>
+      <li><strong>Dual-Stage Catalysis:</strong> Treats CO, NOx, and hydrocarbons in one process.</li>
+      <li><strong>Nanostructured Catalysts:</strong> Uses nano-oxides (cerium, copper, manganese, iron) for faster reactions.</li>
+      <li><strong>Hybrid Support Materials:</strong> Combines metal meshes, honeycomb ceramics, and graphene filters.</li>
+      <li><strong>Temperature-Responsive Coatings:</strong> Smart coatings that self-activate at certain temperatures.</li>
+      <li><strong>Eco-Metals:</strong> Reduces dependency on platinum and rhodium using recyclable metals.</li>
+      <li><strong>Sensor-Integrated Systems:</strong> Uses Arduino-based monitoring for real-time exhaust data.</li>
+    </ul>
+
+    <h3>Environmental Benefits</h3>
+    <ul>
+      <li>Up to <strong>90% reduction</strong> in carbon monoxide and hydrocarbon emissions.</li>
+      <li>Improved performance even at lower exhaust temperatures.</li>
+      <li>Affordable, sustainable, and durable emission control.</li>
+      <li>Supports global carbon-neutral transport goals.</li>
+    </ul>
+  </section>
+  <section>
+  <h2>Application</h2>
+    <ul>
+      <li>Vehicles: For cleaner exhaust emission control</li>
+      <li>Industries: To reduce harmful gas release.</li>
+      <li>Educational model: For demonstrating modern pollution control technology.</li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 | Project by <strong>SAM K AVARACHAN </strong> 
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
